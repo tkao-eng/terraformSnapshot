@@ -8,19 +8,19 @@ resource "sumologic_user" "terraformAdminUserUser" {
     firstName = "Admin"
      lastName = "User"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@985e4fd
+     roleIds = 000000000000000B
 }
 resource "sumologic_role" "terraformAdministratorRole" {
     name = "Administrator"
     description = ""
     filterPredicate = "*"
-    users = [Ljava.lang.String;@674de39c
-    capabilities = [Ljava.lang.String;@3b898416
+    users = 00000000000001D6
+    capabilities = dataVolumeIndex, manageAuditDataFeed, manageAccessKeys, auditEventIndex, manageConnections, metricsExtraction, manageIndexes, shareDashboardWhitelist, manageFieldExtractionRules, searchAuditIndex, ipWhitelisting, manageMonitors, manageUsersAndRoles, metricsTransformation, manageBudgets, manageSaml, manageContent, manageSupportAccountAccess, shareDashboardOutsideOrg, managePasswordPolicy, shareDashboardWorld, manageCollectors, viewCollectors, manageDataVolumeFeed, manageS3DataForwarding
 }
 resource "sumologic_role" "terraformAnalystRole" {
     name = "Analyst"
     description = ""
     filterPredicate = ""
-    users = [Ljava.lang.String;@66783d9e
-    capabilities = [Ljava.lang.String;@2c557e75
+    users = 
+    capabilities = viewCollectors
 }
