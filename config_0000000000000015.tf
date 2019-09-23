@@ -5,22 +5,22 @@ provider "sumologic" {
 }
 
 resource "sumologic_user" "terraformAdminUserUser" {
-    firstName = Admin
-     lastName = User
-     isActive = true
-     roleIds = [0000000000000029]
+    firstName = "Admin"
+     lastName = "User"
+     isActive = "true"
+     roleIds = List("[", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "2", "9", "]")
 }
 resource "sumologic_role" "terraformAdministratorRole" {
-    name = Administrator
-    description = 
-    filterPredicate = *
-    users = [00000000000001F0]
-    capabilities = [dataVolumeIndex, manageAuditDataFeed, manageAccessKeys, auditEventIndex, manageConnections, metricsExtraction, manageIndexes, shareDashboardWhitelist, manageFieldExtractionRules, searchAuditIndex, ipWhitelisting, manageMonitors, manageUsersAndRoles, metricsTransformation, manageBudgets, manageSaml, manageContent, manageSupportAccountAccess, shareDashboardOutsideOrg, managePasswordPolicy, shareDashboardWorld, manageCollectors, viewCollectors, manageDataVolumeFeed, manageS3DataForwarding]
+    name = "Administrator"
+    description = ""
+    filterPredicate = "*"
+    users = List("[", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "F", "0", "]")
+    capabilities = "[dataVolumeIndex, manageAuditDataFeed, manageAccessKeys, auditEventIndex, manageConnections, metricsExtraction, manageIndexes, shareDashboardWhitelist, manageFieldExtractionRules, searchAuditIndex, ipWhitelisting, manageMonitors, manageUsersAndRoles, metricsTransformation, manageBudgets, manageSaml, manageContent, manageSupportAccountAccess, shareDashboardOutsideOrg, managePasswordPolicy, shareDashboardWorld, manageCollectors, viewCollectors, manageDataVolumeFeed, manageS3DataForwarding]"
 }
 resource "sumologic_role" "terraformAnalystRole" {
-    name = Analyst
-    description = 
-    filterPredicate = 
-    users = []
-    capabilities = [viewCollectors]
+    name = "Analyst"
+    description = ""
+    filterPredicate = ""
+    users = List("[", "]")
+    capabilities = "[viewCollectors]"
 }
