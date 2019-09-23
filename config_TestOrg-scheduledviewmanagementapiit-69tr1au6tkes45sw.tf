@@ -8,25 +8,25 @@ resource "sumologic_user" "terraformAdminUserUser" {
     firstName = "Admin"
      lastName = "User"
      isActive = "true"
-     roleIds = 000000000000001B
+     roleIds = [000000000000001B]
 }
 resource "sumologic_user" "terraformtestuserUser" {
     firstName = "test"
      lastName = "user"
      isActive = "true"
-     roleIds = 000000000000001C
+     roleIds = [000000000000001C]
 }
 resource "sumologic_role" "terraformAdministratorRole" {
     name = "Administrator"
     description = ""
     filterPredicate = "*"
-    users = 00000000000001E0
-    capabilities = dataVolumeIndex, manageAuditDataFeed, manageAccessKeys, auditEventIndex, manageConnections, metricsExtraction, manageIndexes, shareDashboardWhitelist, manageFieldExtractionRules, searchAuditIndex, ipWhitelisting, manageMonitors, manageUsersAndRoles, metricsTransformation, manageBudgets, manageSaml, manageContent, manageSupportAccountAccess, shareDashboardOutsideOrg, managePasswordPolicy, shareDashboardWorld, manageCollectors, viewCollectors, manageDataVolumeFeed, manageS3DataForwarding
+    users = [00000000000001E0]
+    capabilities = [dataVolumeIndex, manageAuditDataFeed, manageAccessKeys, auditEventIndex, manageConnections, metricsExtraction, manageIndexes, shareDashboardWhitelist, manageFieldExtractionRules, searchAuditIndex, ipWhitelisting, manageMonitors, manageUsersAndRoles, metricsTransformation, manageBudgets, manageSaml, manageContent, manageSupportAccountAccess, shareDashboardOutsideOrg, managePasswordPolicy, shareDashboardWorld, manageCollectors, viewCollectors, manageDataVolumeFeed, manageS3DataForwarding]
 }
 resource "sumologic_role" "terraformAnalystRole" {
     name = "Analyst"
     description = ""
     filterPredicate = ""
-    users = 00000000000001E1
-    capabilities = viewCollectors
+    users = [00000000000001E1]
+    capabilities = [viewCollectors]
 }
