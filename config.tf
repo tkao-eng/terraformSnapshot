@@ -4,29 +4,29 @@ provider "sumologic" {
     environment = "tkao"
 }
 
-resource "sumologic_user" "terraformfirstNamelastNameUser" {
-    firstName = firstName
-     lastName = lastName
-     isActive = true
-     roleIds = [0000000000000007]
-}
-resource "sumologic_user" "terraformExampleUserUser" {
-    firstName = Example
+resource "sumologic_user" "terraformAdminUserUser" {
+    firstName = Admin
      lastName = User
      isActive = true
-     roleIds = [0000000000000007]
+     roleIds = [0000000000000009]
+}
+resource "sumologic_user" "terraformtestuserUser" {
+    firstName = test
+     lastName = user
+     isActive = true
+     roleIds = [000000000000000A]
 }
 resource "sumologic_role" "terraformAdministratorRole" {
     name = Administrator
     description = 
     filterPredicate = *
-    users = [0000000000000004, 00000000000001C6]
+    users = [00000000000001D4]
     capabilities = [dataVolumeIndex, manageAuditDataFeed, manageAccessKeys, auditEventIndex, manageConnections, metricsExtraction, manageIndexes, shareDashboardWhitelist, manageFieldExtractionRules, searchAuditIndex, ipWhitelisting, manageMonitors, manageUsersAndRoles, metricsTransformation, manageBudgets, manageSaml, manageContent, manageSupportAccountAccess, shareDashboardOutsideOrg, managePasswordPolicy, shareDashboardWorld, manageCollectors, viewCollectors, manageDataVolumeFeed, manageS3DataForwarding]
 }
 resource "sumologic_role" "terraformAnalystRole" {
     name = Analyst
     description = 
     filterPredicate = 
-    users = []
+    users = [00000000000001D5]
     capabilities = [viewCollectors]
 }
