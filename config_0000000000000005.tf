@@ -5,28 +5,28 @@ provider "sumologic" {
 }
 
 resource "sumologic_user" "terraformAdminUserUser" {
-    firstName = Admin
-     lastName = User
-     isActive = true
-     roleIds = [0000000000000009]
+    firstName = "Admin"
+     lastName = "User"
+     isActive = "true"
+     roleIds = List("[", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "9", "]")
 }
 resource "sumologic_user" "terraformtestuserUser" {
-    firstName = test
-     lastName = user
-     isActive = true
-     roleIds = [000000000000000A]
+    firstName = "test"
+     lastName = "user"
+     isActive = "true"
+     roleIds = List("[", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "A", "]")
 }
 resource "sumologic_role" "terraformAdministratorRole" {
-    name = Administrator
-    description = 
-    filterPredicate = *
-    users = [00000000000001D4]
-    capabilities = [dataVolumeIndex, manageAuditDataFeed, manageAccessKeys, auditEventIndex, manageConnections, metricsExtraction, manageIndexes, shareDashboardWhitelist, manageFieldExtractionRules, searchAuditIndex, ipWhitelisting, manageMonitors, manageUsersAndRoles, metricsTransformation, manageBudgets, manageSaml, manageContent, manageSupportAccountAccess, shareDashboardOutsideOrg, managePasswordPolicy, shareDashboardWorld, manageCollectors, viewCollectors, manageDataVolumeFeed, manageS3DataForwarding]
+    name = "Administrator"
+    description = ""
+    filterPredicate = "*"
+    users = List("[", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "D", "4", "]")
+    capabilities = "[dataVolumeIndex, manageAuditDataFeed, manageAccessKeys, auditEventIndex, manageConnections, metricsExtraction, manageIndexes, shareDashboardWhitelist, manageFieldExtractionRules, searchAuditIndex, ipWhitelisting, manageMonitors, manageUsersAndRoles, metricsTransformation, manageBudgets, manageSaml, manageContent, manageSupportAccountAccess, shareDashboardOutsideOrg, managePasswordPolicy, shareDashboardWorld, manageCollectors, viewCollectors, manageDataVolumeFeed, manageS3DataForwarding]"
 }
 resource "sumologic_role" "terraformAnalystRole" {
-    name = Analyst
-    description = 
-    filterPredicate = 
-    users = [00000000000001D5]
-    capabilities = [viewCollectors]
+    name = "Analyst"
+    description = ""
+    filterPredicate = ""
+    users = List("[", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "D", "5", "]")
+    capabilities = "[viewCollectors]"
 }
