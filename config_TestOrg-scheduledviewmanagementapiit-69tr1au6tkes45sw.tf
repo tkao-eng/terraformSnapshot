@@ -8,25 +8,25 @@ resource "sumologic_user" "terraformAdminUserUser" {
     firstName = "Admin"
      lastName = "User"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@37a491bb
+     roleIds = [Ljava.lang.String;@30229a5d
 }
 resource "sumologic_user" "terraformtestuserUser" {
     firstName = "test"
      lastName = "user"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@40aa7b42
+     roleIds = [Ljava.lang.String;@477d4286
 }
 resource "sumologic_role" "terraformAdministratorRole" {
     name = "Administrator"
     description = ""
     filterPredicate = "*"
-    users = [Ljava.lang.String;@77f4f3f5
-    capabilities = [Ljava.lang.String;@5fba9191
+    users = [Ljava.lang.String;@57099030
+    capabilities = [Ljava.lang.String;@179353be
 }
 resource "sumologic_role" "terraformAnalystRole" {
     name = "Analyst"
     description = ""
     filterPredicate = ""
-    users = [Ljava.lang.String;@36fed2db
-    capabilities = [Ljava.lang.String;@5bb89222
+    users = [Ljava.lang.String;@4725a962
+    capabilities = [Ljava.lang.String;@3359ff18
 }
