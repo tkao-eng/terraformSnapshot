@@ -8,613 +8,613 @@ resource "sumologic_user" "terraformfirstNamelastNameUser" {
     firstName = "firstName"
      lastName = "lastName"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@488b6ec5
+     roleIds = [Ljava.lang.String;@278cc998
 }
 resource "sumologic_user" "terraformCollectorRegistrationUser" {
     firstName = "Collector"
      lastName = "Registration"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@4737c7d7
+     roleIds = [Ljava.lang.String;@12949
 }
 resource "sumologic_user" "terraformJapneetChawlaUser" {
     firstName = "Japneet"
      lastName = "Chawla"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@6f63657a
+     roleIds = [Ljava.lang.String;@4c70f726
 }
 resource "sumologic_user" "terraformRamanBahdanovichUser" {
     firstName = "Raman"
      lastName = "Bahdanovich"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@3f14290a
+     roleIds = [Ljava.lang.String;@73dd3fb
 }
 resource "sumologic_user" "terraformSylvainRoyerUser" {
     firstName = "Sylvain"
      lastName = "Royer"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@276b59fe
+     roleIds = [Ljava.lang.String;@1398ad68
 }
 resource "sumologic_user" "terraformJacekMigdalUser" {
     firstName = "Jacek"
      lastName = "Migdal"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@755da06f
+     roleIds = [Ljava.lang.String;@320ec862
 }
 resource "sumologic_user" "terraformAdamSznajderUser" {
     firstName = "Adam"
      lastName = "Sznajder"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@3ae93ab7
+     roleIds = [Ljava.lang.String;@5eee82b7
 }
 resource "sumologic_user" "terraformTingXiongUser" {
     firstName = "Ting"
      lastName = "Xiong"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@55b4c913
+     roleIds = [Ljava.lang.String;@218dff50
 }
 resource "sumologic_user" "terraformArpitJainUser" {
     firstName = "Arpit"
      lastName = "Jain"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@27f8b845
+     roleIds = [Ljava.lang.String;@6b63b93b
 }
 resource "sumologic_user" "terraformKumarAvijitUser" {
     firstName = "Kumar"
      lastName = "Avijit"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@6728f5ed
+     roleIds = [Ljava.lang.String;@307f62a0
 }
 resource "sumologic_user" "terraformMattLarsenUser" {
     firstName = "Matt"
      lastName = "Larsen"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@1c6220f5
+     roleIds = [Ljava.lang.String;@178abb2c
 }
 resource "sumologic_user" "terraformSaubhagyaMaheshwariUser" {
     firstName = "Saubhagya"
      lastName = "Maheshwari"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@65ca0fb6
+     roleIds = [Ljava.lang.String;@240f133c
 }
 resource "sumologic_user" "terraformHimanshuShekharUser" {
     firstName = "Himanshu"
      lastName = "Shekhar"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@4467a5ee
+     roleIds = [Ljava.lang.String;@4c128f61
 }
 resource "sumologic_user" "terraformAleksanderKramarzUser" {
     firstName = "Aleksander"
      lastName = "Kramarz"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@5ffe2047
+     roleIds = [Ljava.lang.String;@122a1014
 }
 resource "sumologic_user" "terraformDavidBlondeauUser" {
     firstName = "David"
      lastName = "Blondeau"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@32bccd8a
+     roleIds = [Ljava.lang.String;@5c428447
 }
 resource "sumologic_user" "terraformMarcinChwedczukUser" {
     firstName = "Marcin"
      lastName = "Chwedczuk"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@578754e4
+     roleIds = [Ljava.lang.String;@6b9827d7
 }
 resource "sumologic_user" "terraformOmidMortazaviUser" {
     firstName = "Omid"
      lastName = "Mortazavi"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@75afe833
+     roleIds = [Ljava.lang.String;@4fd01ce9
 }
 resource "sumologic_user" "terraformCharlesQiUser" {
     firstName = "Charles"
      lastName = "Qi"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@43e8a611
+     roleIds = [Ljava.lang.String;@6434332c
 }
 resource "sumologic_user" "terraformVishalSahUser" {
     firstName = "Vishal"
      lastName = "Sah"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@c39db18
+     roleIds = [Ljava.lang.String;@ff99e68
 }
 resource "sumologic_user" "terraformBillLazarUser" {
     firstName = "Bill"
      lastName = "Lazar"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@63f423a4
+     roleIds = [Ljava.lang.String;@54045766
 }
 resource "sumologic_user" "terraformStevenLiUser" {
     firstName = "Steven"
      lastName = "Li"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@13a23bbf
+     roleIds = [Ljava.lang.String;@5722b479
 }
 resource "sumologic_user" "terraformhimanshupalUser" {
     firstName = "himanshu"
      lastName = "pal"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@5d74b116
+     roleIds = [Ljava.lang.String;@e715c4
 }
 resource "sumologic_user" "terraformBartekEtenkowskiUser" {
     firstName = "Bartek"
      lastName = "Etenkowski"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@2ba21bb8
+     roleIds = [Ljava.lang.String;@7aea4a68
 }
 resource "sumologic_user" "terraformSakshiJainUser" {
     firstName = "Sakshi"
      lastName = "Jain"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@399ad51d
+     roleIds = [Ljava.lang.String;@53400a91
 }
 resource "sumologic_user" "terraformMaciejZbierskiUser" {
     firstName = "Maciej"
      lastName = "Zbierski"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@21753e42
+     roleIds = [Ljava.lang.String;@5b250f00
 }
 resource "sumologic_user" "terraformGouravGargUser" {
     firstName = "Gourav"
      lastName = "Garg"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@528aabb7
+     roleIds = [Ljava.lang.String;@484242c7
 }
 resource "sumologic_user" "terraformgurvindersinghUser" {
     firstName = "gurvinder"
      lastName = "singh"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@3dbedb99
+     roleIds = [Ljava.lang.String;@7e08bcf5
 }
 resource "sumologic_user" "terraformFilipOchnikUser" {
     firstName = "Filip"
      lastName = "Ochnik"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@43dc3da1
+     roleIds = [Ljava.lang.String;@a1c92db
 }
 resource "sumologic_user" "terraformLeiHuangUser" {
     firstName = "Lei"
      lastName = "Huang"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@5c5640df
+     roleIds = [Ljava.lang.String;@29ccd4f8
 }
 resource "sumologic_user" "terraformKevinKoUser" {
     firstName = "Kevin"
      lastName = "Ko"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@7a89668e
+     roleIds = [Ljava.lang.String;@76b13b34
 }
 resource "sumologic_user" "terraformAdityaPatelUser" {
     firstName = "Aditya"
      lastName = "Patel"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@5e358e6a
+     roleIds = [Ljava.lang.String;@736412b
 }
 resource "sumologic_user" "terraformMattSmithUser" {
     firstName = "Matt"
      lastName = "Smith"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@3559c5aa
+     roleIds = [Ljava.lang.String;@5b247f82
 }
 resource "sumologic_user" "terraformMichalMatusiakUser" {
     firstName = "Michal"
      lastName = "Matusiak"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@2b24d4fc
+     roleIds = [Ljava.lang.String;@348951a6
 }
 resource "sumologic_user" "terraformSayilMedinaUser" {
     firstName = "Sayil"
      lastName = "Medina"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@85b1fa0
+     roleIds = [Ljava.lang.String;@149cc64c
 }
 resource "sumologic_user" "terraformGauravJainUser" {
     firstName = "Gaurav"
      lastName = "Jain"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@3f1a5bf9
+     roleIds = [Ljava.lang.String;@3335a1b4
 }
 resource "sumologic_user" "terraformXiLiUser" {
     firstName = "Xi"
      lastName = "Li"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@4cb575d4
+     roleIds = [Ljava.lang.String;@4294c13d
 }
 resource "sumologic_user" "terraformVarunMainiUser" {
     firstName = "Varun"
      lastName = "Maini"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@4f5ad44f
+     roleIds = [Ljava.lang.String;@7913ca4
 }
 resource "sumologic_user" "terraformKasiaMacioszekUser" {
     firstName = "Kasia"
      lastName = "Macioszek"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@6df6c91f
+     roleIds = [Ljava.lang.String;@12396de4
 }
 resource "sumologic_user" "terraformAshishRanjanUser" {
     firstName = "Ashish"
      lastName = "Ranjan"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@61f91900
+     roleIds = [Ljava.lang.String;@3bd74aea
 }
 resource "sumologic_user" "terraformamangoelUser" {
     firstName = "aman"
      lastName = "goel"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@2276b0f4
+     roleIds = [Ljava.lang.String;@5dbcb9
 }
 resource "sumologic_user" "terraformPiotrStyczynskiUser" {
     firstName = "Piotr"
      lastName = "Styczynski"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@4d0786af
+     roleIds = [Ljava.lang.String;@3e7a402
 }
 resource "sumologic_user" "terraformPrashantTrivediUser" {
     firstName = "Prashant"
      lastName = "Trivedi"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@23481969
+     roleIds = [Ljava.lang.String;@78df28fc
 }
 resource "sumologic_user" "terraformsrujanasrujanaUser" {
     firstName = "srujana"
      lastName = "srujana"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@29539721
+     roleIds = [Ljava.lang.String;@6044be6e
 }
 resource "sumologic_user" "terraformVikasSrivastavaUser" {
     firstName = "Vikas"
      lastName = "Srivastava"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@33d3226d
+     roleIds = [Ljava.lang.String;@2046005a
 }
 resource "sumologic_user" "terraformPaulRogersUser" {
     firstName = "Paul"
      lastName = "Rogers"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@e0015b1
+     roleIds = [Ljava.lang.String;@6e407729
 }
 resource "sumologic_user" "terraformKarlSchumakerUser" {
     firstName = "Karl"
      lastName = "Schumaker"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@263567b8
+     roleIds = [Ljava.lang.String;@117c45e7
 }
 resource "sumologic_user" "terraformAmanSinghalUser" {
     firstName = "Aman"
      lastName = "Singhal"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@32700d9d
+     roleIds = [Ljava.lang.String;@6dd5f98
 }
 resource "sumologic_user" "terraformJannatWattsUser" {
     firstName = "Jannat"
      lastName = "Watts"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@6fbf6723
+     roleIds = [Ljava.lang.String;@4b2086da
 }
 resource "sumologic_user" "terraformPriyanshGoelUser" {
     firstName = "Priyansh"
      lastName = "Goel"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@3b56775e
+     roleIds = [Ljava.lang.String;@12479302
 }
 resource "sumologic_user" "terraformBryceBlantonUser" {
     firstName = "Bryce"
      lastName = "Blanton"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@1edbe1f5
+     roleIds = [Ljava.lang.String;@66d8dd7f
 }
 resource "sumologic_user" "terraformDmitryUdalovUser" {
     firstName = "Dmitry"
      lastName = "Udalov"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@326b4e0c
+     roleIds = [Ljava.lang.String;@29033f43
 }
 resource "sumologic_user" "terraformRishulAggarwalUser" {
     firstName = "Rishul"
      lastName = "Aggarwal"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@7bd3834b
+     roleIds = [Ljava.lang.String;@599c84a9
 }
 resource "sumologic_user" "terraformTejaVojjalaUser" {
     firstName = "Teja"
      lastName = "Vojjala"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@3ed988ee
+     roleIds = [Ljava.lang.String;@1b9ff0df
 }
 resource "sumologic_user" "terraformManikSinglaUser" {
     firstName = "Manik"
      lastName = "Singla"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@2b681873
+     roleIds = [Ljava.lang.String;@78ca2660
 }
 resource "sumologic_user" "terraformAdityaSuleUser" {
     firstName = "Aditya"
      lastName = "Sule"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@b0e66ba
+     roleIds = [Ljava.lang.String;@334bc1d0
 }
 resource "sumologic_user" "terraformReetikaRoyUser" {
     firstName = "Reetika"
      lastName = "Roy"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@3a5fdebe
+     roleIds = [Ljava.lang.String;@7c91d67d
 }
 resource "sumologic_user" "terraformTusharkBansalUser" {
     firstName = "Tushark"
      lastName = "Bansal"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@7f90e3fe
+     roleIds = [Ljava.lang.String;@5e3ab8c3
 }
 resource "sumologic_user" "terraformChrisDessonvilleUser" {
     firstName = "Chris"
      lastName = "Dessonville"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@3cf92c1e
+     roleIds = [Ljava.lang.String;@303d73ce
 }
 resource "sumologic_user" "terraformPiotrGalarUser" {
     firstName = "Piotr"
      lastName = "Galar"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@7d5acb2a
+     roleIds = [Ljava.lang.String;@24d58803
 }
 resource "sumologic_user" "terraformSamSongUser" {
     firstName = "Sam"
      lastName = "Song"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@16138723
+     roleIds = [Ljava.lang.String;@5f54a619
 }
 resource "sumologic_user" "terraformFalakKansalUser" {
     firstName = "Falak"
      lastName = "Kansal"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@4d6fe554
+     roleIds = [Ljava.lang.String;@5128e228
 }
 resource "sumologic_user" "terraformankitsinglaUser" {
     firstName = "ankit"
      lastName = "singla"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@17d2751a
+     roleIds = [Ljava.lang.String;@1655b0fb
 }
 resource "sumologic_user" "terraformArvindhSwamiUser" {
     firstName = "Arvindh"
      lastName = "Swami"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@572bf345
+     roleIds = [Ljava.lang.String;@2e4d0e30
 }
 resource "sumologic_user" "terraformKeshavGuptaUser" {
     firstName = "Keshav"
      lastName = "Gupta"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@32e869d5
+     roleIds = [Ljava.lang.String;@6fa983e7
 }
 resource "sumologic_user" "terraformTomaszFalkiewiczUser" {
     firstName = "Tomasz"
      lastName = "Falkiewicz"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@737b5f32
+     roleIds = [Ljava.lang.String;@40c44f5
 }
 resource "sumologic_user" "terraformTanayJhaUser" {
     firstName = "Tanay"
      lastName = "Jha"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@e899bcc
+     roleIds = [Ljava.lang.String;@4ae8a386
 }
 resource "sumologic_user" "terraformJohnSardoUser" {
     firstName = "John"
      lastName = "Sardo"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@c3d736f
+     roleIds = [Ljava.lang.String;@8d51595
 }
 resource "sumologic_user" "terraformLukaszChodarcewiczUser" {
     firstName = "Lukasz"
      lastName = "Chodarcewicz"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@2b47761d
+     roleIds = [Ljava.lang.String;@633ba77
 }
 resource "sumologic_user" "terraformStefanZierUser" {
     firstName = "Stefan"
      lastName = "Zier"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@27b89e93
+     roleIds = [Ljava.lang.String;@6250b7b0
 }
 resource "sumologic_user" "terraformGokul ReddyMuddarlaUser" {
     firstName = "Gokul Reddy"
      lastName = "Muddarla"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@5033a2a8
+     roleIds = [Ljava.lang.String;@16f5a618
 }
 resource "sumologic_user" "terraformDivyaTripathiUser" {
     firstName = "Divya"
      lastName = "Tripathi"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@2047a99a
+     roleIds = [Ljava.lang.String;@1e9bd7db
 }
 resource "sumologic_user" "terraformHarishSharmaUser" {
     firstName = "Harish"
      lastName = "Sharma"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@4d5e9b0f
+     roleIds = [Ljava.lang.String;@2ad4e25c
 }
 resource "sumologic_user" "terraformCharlieTonneslanUser" {
     firstName = "Charlie"
      lastName = "Tonneslan"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@35c1209d
+     roleIds = [Ljava.lang.String;@51a6bd3c
 }
 resource "sumologic_user" "terraformHatimBasra WalaUser" {
     firstName = "Hatim"
      lastName = "Basra Wala"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@7b638741
+     roleIds = [Ljava.lang.String;@7af21ac4
 }
 resource "sumologic_user" "terraformThomasKaoUser" {
     firstName = "Thomas"
      lastName = "Kao"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@4a8e800b
+     roleIds = [Ljava.lang.String;@45fd881c
 }
 resource "sumologic_user" "terraformGarrettNanoUser" {
     firstName = "Garrett"
      lastName = "Nano"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@3f869811
+     roleIds = [Ljava.lang.String;@c271b00
 }
 resource "sumologic_user" "terraformRyleyHigaUser" {
     firstName = "Ryley"
      lastName = "Higa"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@11ab290a
+     roleIds = [Ljava.lang.String;@5b3e2a5e
 }
 resource "sumologic_user" "terraformWojciechDonderowiczUser" {
     firstName = "Wojciech"
      lastName = "Donderowicz"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@542d70de
+     roleIds = [Ljava.lang.String;@3bd1b4eb
 }
 resource "sumologic_user" "terraformHanlinLiUser" {
     firstName = "Hanlin"
      lastName = "Li"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@4638fe98
+     roleIds = [Ljava.lang.String;@75e3f8da
 }
 resource "sumologic_user" "terraformshreyachandraUser" {
     firstName = "shreya"
      lastName = "chandra"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@5a49e73e
+     roleIds = [Ljava.lang.String;@2f6516d7
 }
 resource "sumologic_user" "terraformRaymondKwanUser" {
     firstName = "Raymond"
      lastName = "Kwan"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@50c8f8e6
+     roleIds = [Ljava.lang.String;@4f75845a
 }
 resource "sumologic_user" "terraformRyanMillerUser" {
     firstName = "Ryan"
      lastName = "Miller"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@13e33c8
+     roleIds = [Ljava.lang.String;@6dffe53
 }
 resource "sumologic_user" "terraformAndrzejGórskiUser" {
     firstName = "Andrzej"
      lastName = "Górski"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@b3fc6aa
+     roleIds = [Ljava.lang.String;@70df31f3
 }
 resource "sumologic_user" "terraformMihirPandyaUser" {
     firstName = "Mihir"
      lastName = "Pandya"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@c61896c
+     roleIds = [Ljava.lang.String;@1553cdfc
 }
 resource "sumologic_user" "terraformBhartiMadaanUser" {
     firstName = "Bharti"
      lastName = "Madaan"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@6a2fa6f4
+     roleIds = [Ljava.lang.String;@37f2211e
 }
 resource "sumologic_user" "terraformAvinashSharmaUser" {
     firstName = "Avinash"
      lastName = "Sharma"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@9f646cd
+     roleIds = [Ljava.lang.String;@6d8672a1
 }
 resource "sumologic_user" "terraformBrunoKurticUser" {
     firstName = "Bruno"
      lastName = "Kurtic"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@540ce18a
+     roleIds = [Ljava.lang.String;@729d6ed7
 }
 resource "sumologic_user" "terraformkrishnaagarwalUser" {
     firstName = "krishna"
      lastName = "agarwal"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@1accc64e
+     roleIds = [Ljava.lang.String;@4799a66d
 }
 resource "sumologic_user" "terraformMaisieWangUser" {
     firstName = "Maisie"
      lastName = "Wang"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@70108562
+     roleIds = [Ljava.lang.String;@306fbc2f
 }
 resource "sumologic_user" "terraformZbigniewHalasUser" {
     firstName = "Zbigniew"
      lastName = "Halas"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@1d5260cc
+     roleIds = [Ljava.lang.String;@5614b459
 }
 resource "sumologic_user" "terraformSevaYakhontovUser" {
     firstName = "Seva"
      lastName = "Yakhontov"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@9be7972
+     roleIds = [Ljava.lang.String;@5928e69d
 }
 resource "sumologic_user" "terraformChristianBeedgenUser" {
     firstName = "Christian"
      lastName = "Beedgen"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@54cdf122
+     roleIds = [Ljava.lang.String;@7ba40f3c
 }
 resource "sumologic_user" "terraformaloksharmaUser" {
     firstName = "alok"
      lastName = "sharma"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@689c287f
+     roleIds = [Ljava.lang.String;@9c8fa31
 }
 resource "sumologic_user" "terraformAayushiBansalUser" {
     firstName = "Aayushi"
      lastName = "Bansal"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@564c7383
+     roleIds = [Ljava.lang.String;@79ec2b52
 }
 resource "sumologic_user" "terraformYutingLiuUser" {
     firstName = "Yuting"
      lastName = "Liu"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@2132fd9
+     roleIds = [Ljava.lang.String;@419ce97f
 }
 resource "sumologic_user" "terraformVaibhavGargUser" {
     firstName = "Vaibhav"
      lastName = "Garg"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@ee6a5ce
+     roleIds = [Ljava.lang.String;@66fd9305
 }
 resource "sumologic_user" "terraformLysanderDavidUser" {
     firstName = "Lysander"
      lastName = "David"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@5d8e0e4b
+     roleIds = [Ljava.lang.String;@209e79f
 }
 resource "sumologic_user" "terraformabhishekjainUser" {
     firstName = "abhishek"
      lastName = "jain"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@647490c2
+     roleIds = [Ljava.lang.String;@1f9dd7f0
 }
 resource "sumologic_user" "terraformFilipMikinaUser" {
     firstName = "Filip"
      lastName = "Mikina"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@4363551d
+     roleIds = [Ljava.lang.String;@19e8cfec
 }
 resource "sumologic_user" "terraformRaminSafaieUser" {
     firstName = "Ramin"
      lastName = "Safaie"
      isActive = "true"
-     roleIds = [Ljava.lang.String;@24d14606
+     roleIds = [Ljava.lang.String;@1eb7d68f
 }
 resource "sumologic_role" "terraformAdministratorRole" {
     name = "Administrator"
     description = ""
     filterPredicate = "*"
-    users = [Ljava.lang.String;@633555ee
-    capabilities = [Ljava.lang.String;@818072c
+    users = [Ljava.lang.String;@2595d2b1
+    capabilities = [Ljava.lang.String;@675a1ace
 }
 resource "sumologic_role" "terraformAnalystRole" {
     name = "Analyst"
     description = ""
     filterPredicate = ""
-    users = [Ljava.lang.String;@1ea1f216
-    capabilities = [Ljava.lang.String;@4c11bda
+    users = [Ljava.lang.String;@7e4835eb
+    capabilities = [Ljava.lang.String;@7f2f2f5d
 }
