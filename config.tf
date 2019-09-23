@@ -8,19 +8,25 @@ resource "sumologic_user" "terraformAdminUserUser" {
     firstName = Admin
      lastName = User
      isActive = true
-     roleIds = [000000000000000D]
+     roleIds = [000000000000000F]
+}
+resource "sumologic_user" "terraformtestuserUser" {
+    firstName = test
+     lastName = user
+     isActive = true
+     roleIds = [0000000000000010]
 }
 resource "sumologic_role" "terraformAdministratorRole" {
     name = Administrator
     description = 
     filterPredicate = *
-    users = [00000000000001D7]
+    users = [00000000000001D8]
     capabilities = [dataVolumeIndex, manageAuditDataFeed, manageAccessKeys, auditEventIndex, manageConnections, metricsExtraction, manageIndexes, shareDashboardWhitelist, manageFieldExtractionRules, searchAuditIndex, ipWhitelisting, manageMonitors, manageUsersAndRoles, metricsTransformation, manageBudgets, manageSaml, manageContent, manageSupportAccountAccess, shareDashboardOutsideOrg, managePasswordPolicy, shareDashboardWorld, manageCollectors, viewCollectors, manageDataVolumeFeed, manageS3DataForwarding]
 }
 resource "sumologic_role" "terraformAnalystRole" {
     name = Analyst
     description = 
     filterPredicate = 
-    users = []
+    users = [00000000000001D9]
     capabilities = [viewCollectors]
 }
